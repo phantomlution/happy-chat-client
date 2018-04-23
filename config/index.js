@@ -16,8 +16,8 @@ module.exports = {
     env: require('./prod.env'),
     index: path.resolve(__dirname, '../dist/index.html'),
     assetsRoot: path.resolve(__dirname, '../dist'),
-    assetsSubDirectory: 'static',
-    assetsPublicPath: 'https://imeihao-manage.oss-cn-shanghai.aliyuncs.com/mall_backend/' + (type == 't' ? 'test' : 'publish'),
+    assetsSubDirectory: '',
+    assetsPublicPath: './',
     productionSourceMap: false,
     dllDirectory: path.join(path.resolve(__dirname, '../build'), 'dll'),
     // Gzip off by default as many popular static hosts such as
