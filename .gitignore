@@ -2,7 +2,6 @@
 doc
 build/dll
 build/backup
-config/index.js
 node_modules/
 dist/
 npm-debug.log
