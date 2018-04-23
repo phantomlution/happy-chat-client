@@ -35,12 +35,12 @@ rm(path.join(config.build.assetsRoot, config.build.assetsSubDirectory), err => {
     ));
 
     //自动更新文件
-    var updateStrategy = process.env.npm_lifecycle_event;
-    if ('build' == updateStrategy) {
-      ossUtils.start('publish');
-    } else if ('build-test' == updateStrategy) {
-      ossUtils.start('test');
-    }
+    // var updateStrategy = process.env.npm_lifecycle_event;
+    // if ('build' == updateStrategy) {
+    //   ossUtils.start('publish');
+    // } else if ('build-test' == updateStrategy) {
+    //   ossUtils.start('test');
+    // }
 
   })
 })
