@@ -1,0 +1,14 @@
+.DS_Store
+doc
+build/dll
+build/backup
+config/index.js
+node_modules/
+dist/
+npm-debug.log
+test/unit/coverage
+test/e2e/reports
+selenium-debug.log
+.idea/
+src/.vscode/
+build/oss.upload.js
